@@ -20,3 +20,27 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* CSS Code */
+.story-image {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    line-height: 85px;
+    background: #ccc;
+}
+
+.story-image-blur {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    line-height: 85px;
+    
+    backdrop-filter: blur(10px)
+}
