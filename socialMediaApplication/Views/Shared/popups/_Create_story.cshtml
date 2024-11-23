@@ -1,4 +1,5 @@
-﻿<div id="popup-modal" tabindex="-1" class="top-0 right-0 left-0 h-[calc(100%-1rem)] fixed z-50 hidden max-h-full w-full items-center justify-center overflow-y-auto overflow-x-hidden md:inset-0">
+﻿@model PostVM;
+<div id="popup-modal" tabindex="-1" class="top-0 right-0 left-0 h-[calc(100%-1rem)] fixed z-50 hidden max-h-full w-full items-center justify-center overflow-y-auto overflow-x-hidden md:inset-0">
     <div class="p-4 relative max-h-full w-full max-w-lg">
         <div class="bg-white relative rounded-lg shadow dark:bg-gray-700">
             <button type="button" class="top-3 end-2.5 text-gray-400 bg-transparent w-8 h-8 absolute ms-auto inline-flex items-center justify-center rounded-lg text-sm hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="popup-modal">
@@ -9,7 +10,6 @@
             </button>
             <div class="p-4 text-left md:p-5">
                 <h3 class="text-gray-400 text-2xl uppercase"> Add your story</h3>
-                
                 <form class="mt-5">
                     <div class="flex w-full items-center justify-center">
                         <label for="dropzone-file" class="h-64 border-gray-300 bg-gray-50 flex w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed hover:bg-gray-100 dark:bg-gray-700 dark:border-gray-600 dark:hover:bg-gray-800 dark:hover:border-gray-500 dark:hover:bg-gray-600">

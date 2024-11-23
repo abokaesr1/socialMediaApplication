@@ -22,12 +22,8 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MohammadSalamat/Downloads/My Folders and Projects/ASP.NET Core Social Media/socialMediaApplication/socialMediaApplication/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/MohammadSalamat/Downloads/My Folders and Projects/ASP.NET Core Social Media/socialMediaApplication/socialMediaApplication/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[C:/Users/MohammadSalamat/Downloads/My Folders and Projects/ASP.NET Core Social Media/socialMediaApplication/socialMediaApplication/Views/Shared/Components/Home/_posts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSG9tZVxfcG9zdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MohammadSalamat/Downloads/My Folders and Projects/ASP.NET Core Social Media/socialMediaApplication/socialMediaApplication/Views/Shared/popups/_Create_story.cshtml]

@@ -12,12 +12,19 @@
             <div class="p-4 text-left md:p-5">
                 <h3 class="text-gray-400 text-2xl uppercase"> Type your thoughts</h3>
 
-                <form class="mt-5">
+                <form class="mt-5" asp-action="CreatePost" method="post">
                     <div class="mb-4 border-gray-200 bg-gray-50 w-full rounded-lg border dark:bg-gray-700 dark:border-gray-600">
                         
                         <div class="px-4 py-2 bg-white rounded-b-lg dark:bg-gray-800">
                             <label for="editor" class="sr-only">Publish post</label>
-                            <textarea id="editor" rows="8" name="thoughts" class="px-0 text-gray-800 bg-white block w-full border-0 text-sm focus:ring-0 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400" placeholder="What is in your mind..." required></textarea>
+                            <textarea 
+                            asp-for="@Model.Description"
+                            id="editor" rows="8" 
+                            name="Description" 
+                            class="px-0 text-gray-800 bg-white block w-full border-0 text-sm focus:ring-0 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400" 
+                            placeholder="What is in your mind..." 
+                            required>
+                            </textarea>
                         </div>
                         <input type="file" name="thoughts-image" value="" />
                     </div>

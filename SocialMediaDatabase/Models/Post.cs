@@ -9,7 +9,7 @@ namespace SocialMediaDatabase.Models
     public class Post
     {
         [Key]
-        public int postId{ get; set; }
+        public int Id{ get; set; }
        
         public string? Description { get; set; }
         public string? ImageUrl { get; set; }

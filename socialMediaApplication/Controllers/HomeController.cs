@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using socialMediaApplication.Models;
 using SocialMediaDatabase.Data;
 using System.Diagnostics;
+using socialMediaApplication.ViewModels.Home;
 
 namespace socialMediaApplication.Controllers
 {
@@ -25,15 +25,26 @@ namespace socialMediaApplication.Controllers
             return View(allPosts);
         }
 
-        public IActionResult Privacy()
+        [HttpPost]
+        public async Task<IActionResult> CreatePost(PostVM post)
         {
-            return View();
+            int userId = 1;
+            var newPost = new Post{
+                Description = post.Description,
+                ImageUrl = "",
+                UserId = userId,
+                NrOfReports = 0
+                CreatedAt = DateTime.utcNow,
+                PublishAt = DateTime.utcNow
+            }
+
+            await _context.Posts.Add(newPost);
+            await _context.SaveChangesAsync();
+
+            // redicrection to home page
+            return RedirectToAction("Index");
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+       
     }
 }

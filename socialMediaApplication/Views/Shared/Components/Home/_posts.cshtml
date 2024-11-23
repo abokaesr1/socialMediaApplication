@@ -1,0 +1,72 @@
+﻿@using SocialMediaDatabase.Models
+@model Post
+@{
+    TimeSpan ConvertTimeTohuman = DateTime.Now.Subtract(Model.CreatedAt.GetValueOrDefault());
+       string TimeAgo = ConvertTimeTohuman.TotalDays >= 1? $"{ConvertTimeTohuman.Minutes} Days ago" :  ConvertTimeTohuman.Hours > 0? $"{ConvertTimeTohuman.Hours} hours ago" : ConvertTimeTohuman.Minutes > 0? $"{ConvertTimeTohuman.Minutes} minutes ago" : $"{ConvertTimeTohuman.Seconds} seconds ago";
+
+
+}
+<div class="bg-white p-4 mb-4 mt-5 flex flex-col rounded-md shadow-md">
+    @* user section*@
+    <div class="px-2 mb-3 py-3 flex items-center justify-between">
+        <div class="person-data gap-4 flex items-center">
+            <div class="person-image">
+                <img src="@(Model.User.Profile ?? " ~/assets/images/logo.png" )" class="h-8 w-8 rounded-full shadow-sm"
+                     alt="Alternate Text" />
+            </div>
+            <div class="person-info">
+                <h3 class="text-small text-gray-500 hover:text-gray-800">@Model.User.FullName</h3>
+                <p class="text-gray-300 text-sm hover:text-gray-500" title="@Model.CreatedAt">@TimeAgo</p>
+            </div>
+        </div>
+        <div class="relative flex flex-col" x-data="{setting:false}">
+            <i :class="setting? 'fas fa-ellipsis-vertical text-xl' : 'fas fa-ellipsis text-xl'"
+               x-on:click.outside="setting=false" x-on:click="setting=!setting"></i>
+            <div class="bg-gray-100 top-10 right-0 p-5 w-52 absolute flex flex-col rounded-lg shadow-sm"
+                 x-show="setting">
+                <ul class="list-unstyled">
+                    <li class="list-unstyled p-3 text-sm hover:text-black hover:bg-gray-300"> Setting here</li>
+                    <li class="list-unstyled p-3 text-sm hover:text-black hover:bg-gray-300"> Setting here</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    @* content section *@
+    <div class="content-section my-3">
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <div class="contentImage mb-2">
+                <img src="@Model.ImageUrl" class="h-auto w-full rounded-md object-cover shadow-sm" alt="Alternate Text" />
+            </div>
+        }
+        <p>
+            @Model.Description
+        </p>
+
+    </div>
+    @* like section *@
+    <div class="content-section my-3 flex items-center justify-between">
+        <div class="like-icons gap-4 flex items-center">
+            <i class="fa-regular fa-heart text-xl"></i>
+            <i class="fa-regular fa-comment text-xl"></i>
+        </div>
+        <div class="fovorate">
+            <i class="fa-regular fa-bookmark text-xl"></i>
+        </div>
+    </div>
+    @* Add Comment section *@
+    <div class="gap-4 mt-5 flex items-center">
+        <div class="user-image">
+            <img src="~/assets/images/logo.png" class="h-8 w-8 rounded-full shadow-sm" alt="Alternate Text" />
+        </div>
+        <div class="w-full">
+            <form action="/" method="post" class="flex items-center justify-between">
+                <input type="text" name="add-comment" placeholder="add a comment" value=""
+                       class="w-2/3 focus:border-transparent focus:outline-none" />
+                <input type="submit" value="Comment"
+                       class="bg-gray-100 border-1 border-gray-200 ml-4 text-black py-1 px-4 rounded-md shadow-sm" />
+            </form>
+        </div>
+    </div>
+</div>
