@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = socialMediaApplication
+build_property.RootNamespace = socialMediaApplication
+build_property.ProjectDir = C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\socialMediaApplication\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\socialMediaApplication
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/MohammadSalamat/Downloads/My Folders and Projects/ASP.NET Core Social Media/socialMediaApplication/socialMediaApplication/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadSalamat/Downloads/My Folders and Projects/ASP.NET Core Social Media/socialMediaApplication/socialMediaApplication/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadSalamat/Downloads/My Folders and Projects/ASP.NET Core Social Media/socialMediaApplication/socialMediaApplication/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadSalamat/Downloads/My Folders and Projects/ASP.NET Core Social Media/socialMediaApplication/socialMediaApplication/Views/Shared/popups/_Create_story.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHBvcHVwc1xfQ3JlYXRlX3N0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadSalamat/Downloads/My Folders and Projects/ASP.NET Core Social Media/socialMediaApplication/socialMediaApplication/Views/Shared/popups/_what_is_in_your_mind.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHBvcHVwc1xfd2hhdF9pc19pbl95b3VyX21pbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadSalamat/Downloads/My Folders and Projects/ASP.NET Core Social Media/socialMediaApplication/socialMediaApplication/Views/Shared/short_codes/people_you_may_know.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHNob3J0X2NvZGVzXHBlb3BsZV95b3VfbWF5X2tub3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadSalamat/Downloads/My Folders and Projects/ASP.NET Core Social Media/socialMediaApplication/socialMediaApplication/Views/Shared/short_codes/_header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHNob3J0X2NvZGVzXF9oZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadSalamat/Downloads/My Folders and Projects/ASP.NET Core Social Media/socialMediaApplication/socialMediaApplication/Views/Shared/short_codes/_left_side_bar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHNob3J0X2NvZGVzXF9sZWZ0X3NpZGVfYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadSalamat/Downloads/My Folders and Projects/ASP.NET Core Social Media/socialMediaApplication/socialMediaApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadSalamat/Downloads/My Folders and Projects/ASP.NET Core Social Media/socialMediaApplication/socialMediaApplication/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadSalamat/Downloads/My Folders and Projects/ASP.NET Core Social Media/socialMediaApplication/socialMediaApplication/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadSalamat/Downloads/My Folders and Projects/ASP.NET Core Social Media/socialMediaApplication/socialMediaApplication/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-s46x08uoyc

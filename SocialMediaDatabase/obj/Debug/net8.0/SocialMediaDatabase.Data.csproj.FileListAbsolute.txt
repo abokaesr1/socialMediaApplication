@@ -1,0 +1,15 @@
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\SocialMediaDatabase\bin\Debug\net8.0\SocialMediaDatabase.Data.deps.json
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\SocialMediaDatabase\bin\Debug\net8.0\SocialMediaDatabase.Data.runtimeconfig.json
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\SocialMediaDatabase\bin\Debug\net8.0\SocialMediaDatabase.Data.dll
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\SocialMediaDatabase\bin\Debug\net8.0\SocialMediaDatabase.Data.pdb
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\SocialMediaDatabase\obj\Debug\net8.0\SocialMediaDatabase.Data.csproj.AssemblyReference.cache
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\SocialMediaDatabase\obj\Debug\net8.0\SocialMediaDatabase.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\SocialMediaDatabase\obj\Debug\net8.0\SocialMediaDatabase.Data.AssemblyInfoInputs.cache
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\SocialMediaDatabase\obj\Debug\net8.0\SocialMediaDatabase.Data.AssemblyInfo.cs
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\SocialMediaDatabase\obj\Debug\net8.0\SocialMediaDatabase.Data.csproj.CoreCompileInputs.cache
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\SocialMediaDatabase\obj\Debug\net8.0\SocialMediaDatabase.Data.sourcelink.json
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\SocialMediaDatabase\obj\Debug\net8.0\SocialMediaDatabase.Data.dll
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\SocialMediaDatabase\obj\Debug\net8.0\refint\SocialMediaDatabase.Data.dll
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\SocialMediaDatabase\obj\Debug\net8.0\SocialMediaDatabase.Data.pdb
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\SocialMediaDatabase\obj\Debug\net8.0\SocialMediaDatabase.Data.genruntimeconfig.cache
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\SocialMediaDatabase\obj\Debug\net8.0\ref\SocialMediaDatabase.Data.dll
