@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.Data.csproj|c:\\users\\mohammadsalamat\\downloads\\my folders and projects\\asp.net core social media\\socialmediaapplication\\socialmediadatabase\\migrations\\applicationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.Data.csproj|solutionrelative:socialmediadatabase\\migrations\\applicationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\Migrations\\20241123104809_add_relationship_user_post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SocialMediaDatabase\\Migrations\\20241123104809_add_relationship_user_post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\Migrations\\20241123100319_CreateUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SocialMediaDatabase\\Migrations\\20241123100319_CreateUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\Migrations\\20241123095511_EditContent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SocialMediaDatabase\\Migrations\\20241123095511_EditContent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.Data.csproj|c:\\users\\mohammadsalamat\\downloads\\my folders and projects\\asp.net core social media\\socialmediaapplication\\socialmediadatabase\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.Data.csproj|solutionrelative:socialmediadatabase\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.Data.csproj|c:\\users\\mohammadsalamat\\downloads\\my folders and projects\\asp.net core social media\\socialmediaapplication\\socialmediadatabase\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.Data.csproj|solutionrelative:socialmediadatabase\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.Data.csproj|c:\\users\\mohammadsalamat\\downloads\\my folders and projects\\asp.net core social media\\socialmediaapplication\\socialmediadatabase\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.Data.csproj|solutionrelative:socialmediadatabase\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.Data.csproj|c:\\users\\mohammadsalamat\\downloads\\my folders and projects\\asp.net core social media\\socialmediaapplication\\socialmediadatabase\\migrations\\applicationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.Data.csproj|solutionrelative:socialmediadatabase\\migrations\\applicationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A160C1F-92A4-4C5E-923E-A72D13EF461F}|socialMediaApplication\\socialMediaApplication.csproj|c:\\users\\mohammadsalamat\\downloads\\my folders and projects\\asp.net core social media\\socialmediaapplication\\socialmediaapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,32 +91,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20241123104809_add_relationship_user_post.cs",
+              "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\Migrations\\20241123104809_add_relationship_user_post.cs",
+              "RelativeDocumentMoniker": "SocialMediaDatabase\\Migrations\\20241123104809_add_relationship_user_post.cs",
+              "ToolTip": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\Migrations\\20241123104809_add_relationship_user_post.cs",
+              "RelativeToolTip": "SocialMediaDatabase\\Migrations\\20241123104809_add_relationship_user_post.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:48:09.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20241123100319_CreateUserTable.cs",
+              "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\Migrations\\20241123100319_CreateUserTable.cs",
+              "RelativeDocumentMoniker": "SocialMediaDatabase\\Migrations\\20241123100319_CreateUserTable.cs",
+              "ToolTip": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\Migrations\\20241123100319_CreateUserTable.cs",
+              "RelativeToolTip": "SocialMediaDatabase\\Migrations\\20241123100319_CreateUserTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:03:19.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20241123095511_EditContent.cs",
+              "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\Migrations\\20241123095511_EditContent.cs",
+              "RelativeDocumentMoniker": "SocialMediaDatabase\\Migrations\\20241123095511_EditContent.cs",
+              "ToolTip": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\Migrations\\20241123095511_EditContent.cs",
+              "RelativeToolTip": "SocialMediaDatabase\\Migrations\\20241123095511_EditContent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:55:11.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ApplicationContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\Migrations\\ApplicationContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "SocialMediaDatabase\\Migrations\\ApplicationContextModelSnapshot.cs",
               "ToolTip": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\Migrations\\ApplicationContextModelSnapshot.cs",
               "RelativeToolTip": "SocialMediaDatabase\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwAYAAAAeAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T09:20:10.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Post.cs",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\Models\\Post.cs",
               "RelativeDocumentMoniker": "SocialMediaDatabase\\Models\\Post.cs",
               "ToolTip": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\Models\\Post.cs",
               "RelativeToolTip": "SocialMediaDatabase\\Models\\Post.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T08:38:06.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\socialMediaApplication\\Program.cs",
               "RelativeDocumentMoniker": "socialMediaApplication\\Program.cs",
@@ -112,25 +163,24 @@
               "RelativeToolTip": "socialMediaApplication\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T08:36:07.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T08:36:07.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ApplicationContext.cs",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "SocialMediaDatabase\\ApplicationContext.cs",
               "ToolTip": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\ApplicationContext.cs",
               "RelativeToolTip": "SocialMediaDatabase\\ApplicationContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T08:33:03.137Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "people_you_may_know.cshtml",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\socialMediaApplication\\Views\\Shared\\short_codes\\people_you_may_know.cshtml",
               "RelativeDocumentMoniker": "socialMediaApplication\\Views\\Shared\\short_codes\\people_you_may_know.cshtml",
@@ -142,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "_header.cshtml",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\socialMediaApplication\\Views\\Shared\\short_codes\\_header.cshtml",
               "RelativeDocumentMoniker": "socialMediaApplication\\Views\\Shared\\short_codes\\_header.cshtml",
@@ -154,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\socialMediaApplication\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "socialMediaApplication\\Views\\Home\\Privacy.cshtml",
@@ -166,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "_what_is_in_your_mind.cshtml",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\socialMediaApplication\\Views\\Shared\\popups\\_what_is_in_your_mind.cshtml",
               "RelativeDocumentMoniker": "socialMediaApplication\\Views\\Shared\\popups\\_what_is_in_your_mind.cshtml",
@@ -178,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\socialMediaApplication\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "socialMediaApplication\\wwwroot\\js\\site.js",
@@ -190,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\socialMediaApplication\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "socialMediaApplication\\wwwroot\\css\\site.css",
@@ -202,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\socialMediaApplication\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "socialMediaApplication\\Views\\Home\\Index.cshtml",
@@ -214,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "_Create_story.cshtml",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\socialMediaApplication\\Views\\Shared\\popups\\_Create_story.cshtml",
               "RelativeDocumentMoniker": "socialMediaApplication\\Views\\Shared\\popups\\_Create_story.cshtml",
@@ -226,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\socialMediaApplication\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "socialMediaApplication\\Views\\Shared\\_Layout.cshtml",

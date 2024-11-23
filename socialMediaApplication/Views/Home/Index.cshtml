@@ -1,4 +1,6 @@
-﻿@{
+﻿@using SocialMediaDatabase.Models;
+@model List<Post>;
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -18,6 +20,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="story-image">
+
                             <button data-modal-target="popup-modal" data-modal-toggle="popup-modal" type="button"  >
                                 <i  class="fas fa-camera p-5 text-2xl"></i>
                             </button>
