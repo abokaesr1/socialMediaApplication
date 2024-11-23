@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using SocialMediaDatabase.Data;
+using SocialMediaDatabase.Data.Helpers;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +15,15 @@ builder.Services.AddDbContext<ApplicationContext>(options =>
 
 var app = builder.Build();
 
+// Configure the database Seeds
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationContext>();
+   await dbContext.Database.MigrateAsync(); // migrate your database schema
+   await DataInitializer.SeedAsync(dbContext);
+   
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
