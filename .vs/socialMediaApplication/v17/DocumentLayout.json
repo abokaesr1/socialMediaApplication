@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A160C1F-92A4-4C5E-923E-A72D13EF461F}|socialMediaApplication\\socialMediaApplication.csproj|c:\\users\\mohammadsalamat\\downloads\\my folders and projects\\asp.net core social media\\socialmediaapplication\\socialmediaapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A160C1F-92A4-4C5E-923E-A72D13EF461F}|socialMediaApplication\\socialMediaApplication.csproj|solutionrelative:socialmediaapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.Data.csproj|c:\\users\\mohammadsalamat\\downloads\\my folders and projects\\asp.net core social media\\socialmediaapplication\\socialmediadatabase\\migrations\\applicationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.Data.csproj|solutionrelative:socialmediadatabase\\migrations\\applicationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +11,12 @@
       "RelativeMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.Data.csproj|solutionrelative:socialmediadatabase\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.csproj|c:\\users\\mohammadsalamat\\downloads\\my folders and projects\\asp.net core social media\\socialmediaapplication\\socialmediadatabase\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.csproj|solutionrelative:socialmediadatabase\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.Data.csproj|c:\\users\\mohammadsalamat\\downloads\\my folders and projects\\asp.net core social media\\socialmediaapplication\\socialmediadatabase\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC935AF-938E-4893-A6DE-B7AEBC4E9373}|SocialMediaDatabase\\SocialMediaDatabase.Data.csproj|solutionrelative:socialmediadatabase\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A160C1F-92A4-4C5E-923E-A72D13EF461F}|socialMediaApplication\\socialMediaApplication.csproj|c:\\users\\mohammadsalamat\\downloads\\my folders and projects\\asp.net core social media\\socialmediaapplication\\socialmediaapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A160C1F-92A4-4C5E-923E-A72D13EF461F}|socialMediaApplication\\socialMediaApplication.csproj|solutionrelative:socialmediaapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A160C1F-92A4-4C5E-923E-A72D13EF461F}|socialMediaApplication\\socialMediaApplication.csproj|c:\\users\\mohammadsalamat\\downloads\\my folders and projects\\asp.net core social media\\socialmediaapplication\\socialmediaapplication\\views\\shared\\short_codes\\people_you_may_know.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 379,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,20 +78,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ApplicationContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\Migrations\\ApplicationContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "SocialMediaDatabase\\Migrations\\ApplicationContextModelSnapshot.cs",
               "ToolTip": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\Migrations\\ApplicationContextModelSnapshot.cs",
               "RelativeToolTip": "SocialMediaDatabase\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T09:20:10.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Post.cs",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\Models\\Post.cs",
               "RelativeDocumentMoniker": "SocialMediaDatabase\\Models\\Post.cs",
@@ -104,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\socialMediaApplication\\Program.cs",
               "RelativeDocumentMoniker": "socialMediaApplication\\Program.cs",
@@ -117,13 +117,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ApplicationContext.cs",
               "DocumentMoniker": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "SocialMediaDatabase\\ApplicationContext.cs",
               "ToolTip": "C:\\Users\\MohammadSalamat\\Downloads\\My Folders and Projects\\ASP.NET Core Social Media\\socialMediaApplication\\SocialMediaDatabase\\ApplicationContext.cs",
               "RelativeToolTip": "SocialMediaDatabase\\ApplicationContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T08:33:03.137Z",
               "EditorCaption": ""
@@ -138,8 +138,7 @@
               "RelativeToolTip": "socialMediaApplication\\Views\\Shared\\short_codes\\people_you_may_know.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T18:28:22.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T18:28:22.532Z"
             },
             {
               "$type": "Document",
@@ -151,8 +150,7 @@
               "RelativeToolTip": "socialMediaApplication\\Views\\Shared\\short_codes\\_header.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T17:59:46.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T17:59:46.14Z"
             },
             {
               "$type": "Document",
@@ -164,8 +162,7 @@
               "RelativeToolTip": "socialMediaApplication\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T19:07:32.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T19:07:32.09Z"
             },
             {
               "$type": "Document",
@@ -177,8 +174,7 @@
               "RelativeToolTip": "socialMediaApplication\\Views\\Shared\\popups\\_what_is_in_your_mind.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T19:03:46.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T19:03:46.586Z"
             },
             {
               "$type": "Document",
@@ -190,8 +186,7 @@
               "RelativeToolTip": "socialMediaApplication\\wwwroot\\js\\site.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-21T18:31:21.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T18:31:21.943Z"
             },
             {
               "$type": "Document",
@@ -203,8 +198,7 @@
               "RelativeToolTip": "socialMediaApplication\\wwwroot\\css\\site.css",
               "ViewState": "AQIAABIAAAAAAAAAAAAAACsAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-21T18:29:15.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T18:29:15.891Z"
             },
             {
               "$type": "Document",
@@ -216,8 +210,7 @@
               "RelativeToolTip": "socialMediaApplication\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAADwAAAAAAAAAAAAAAFkAAABxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T18:16:29.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T18:16:29.955Z"
             },
             {
               "$type": "Document",
@@ -229,8 +222,7 @@
               "RelativeToolTip": "socialMediaApplication\\Views\\Shared\\popups\\_Create_story.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T13:22:45.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T13:22:45.502Z"
             },
             {
               "$type": "Document",
@@ -242,8 +234,7 @@
               "RelativeToolTip": "socialMediaApplication\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAC4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T10:37:12.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T10:37:12.518Z"
             }
           ]
         }

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace socialMediaApplication.Migrations
+namespace SocialMediaDatabase.Data.Migrations
 {
     /// <inheritdoc />
     public partial class createPostTable : Migration

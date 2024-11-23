@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace socialMediaApplication.Migrations
+namespace SocialMediaDatabase.Data.Migrations
 {
     /// <inheritdoc />
     public partial class createDatabase : Migration

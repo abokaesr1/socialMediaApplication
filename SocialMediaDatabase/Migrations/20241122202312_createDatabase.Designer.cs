@@ -8,7 +8,7 @@ using SocialMediaDatabase.Data;
 
 #nullable disable
 
-namespace socialMediaApplication.Migrations
+namespace SocialMediaDatabase.Data.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
     [Migration("20241122202312_createDatabase")]
