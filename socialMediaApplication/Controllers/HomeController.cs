@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using SocialMediaDatabase.Data;
 using System.Diagnostics;
 using socialMediaApplication.ViewModels.Home;
+using SocialMediaDatabase.Models;
 
 namespace socialMediaApplication.Controllers
 {
@@ -20,7 +21,10 @@ namespace socialMediaApplication.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var allPosts = await _context.Posts.Include(n=>n.User).ToListAsync();
+            var allPosts = await _context.Posts
+            .Include(n=>n.User)
+            .OrderByDescending(n => n.CreatedAt)
+            .ToListAsync();
 
             return View(allPosts);
         }
@@ -29,18 +33,18 @@ namespace socialMediaApplication.Controllers
         public async Task<IActionResult> CreatePost(PostVM post)
         {
             int userId = 1;
-            var newPost = new Post{
-                Description = post.Description,
+            var newPost = new Post
+            {
+                Description = post.Content,
                 ImageUrl = "",
                 UserId = userId,
-                NrOfReports = 0
-                CreatedAt = DateTime.utcNow,
-                PublishAt = DateTime.utcNow
-            }
+                NrOfReports = 0,
+                CreatedAt = DateTime.Now,
+                PublishAt = DateTime.Now
+            };
 
-            await _context.Posts.Add(newPost);
+             _context.Posts.Add(newPost);
             await _context.SaveChangesAsync();
-
             // redicrection to home page
             return RedirectToAction("Index");
         }
