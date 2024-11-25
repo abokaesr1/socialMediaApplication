@@ -14,20 +14,61 @@ List<Game> games = new() {
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
+
 app.MapGet("/", () => "home page is here...");
-app.MapGet("/games", () => games);
-app.MapGet("/games/{id}", (int id) => games.Find(game => game.Id == id)).WithName(GetGameEndpointName);
+
+// group all the routes
+
+var group = app.MapGroup("/games");
+
+group.MapGet("/", () => games);
+group.MapGet("/{id}", (int id) => games.Find(game => game.Id == id)).WithName(GetGameEndpointName);
 
 // post request
-
-app.MapPost("/games", (Game newGame) =>
+app.MapPost("/Addgames", (Game game) =>
 {
     // make the id dynmic 
-    newGame.Id = games.Max(game => game.Id) + 1;
+    game.Id = games.Max(game => game.Id) + 1;
 
     // add the new game to the list of games
-    games.Add(newGame);
+    games.Add(game);
 
-    return Results.CreatedAtRoute(GetGameEndpointName);
+    return Results.CreatedAtRoute(GetGameEndpointName, new { Id = game.Id }, game);
+});
+
+// put request
+
+app.MapPut("/UpdateGames/{id}", (int id, Game game) =>
+{
+    var existingGame = games.Find(game => game.Id == id);
+    if (existingGame != null)
+    {
+        existingGame.Name = game.Name;
+        existingGame.Relasedate = game.Relasedate;
+        existingGame.Price = game.Price;
+        existingGame.Genre = game.Genre;
+        existingGame.Imageurl = game.Imageurl;
+        return Results.NoContent();
+    }
+    else
+    {
+        return Results.NotFound();
+    }
+});
+
+// delete request
+
+app.MapDelete("/DeleteGames/{id}", (int id) =>
+{
+    Game? existingGame = games.Find(game => game.Id == id);
+    if (existingGame != null)
+    {
+        games.Remove(existingGame);
+        return Results.NoContent();
+    }
+    else
+    {
+        return Results.NotFound();
+    }
 });
 app.Run();
