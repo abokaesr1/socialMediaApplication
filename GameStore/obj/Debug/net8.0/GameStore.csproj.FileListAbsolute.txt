@@ -24,3 +24,9 @@ C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social M
 C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\GameStore\obj\Debug\net8.0\GameStore.pdb
 C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\GameStore\obj\Debug\net8.0\GameStore.genruntimeconfig.cache
 C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\GameStore\obj\Debug\net8.0\ref\GameStore.dll
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\GameStore\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\GameStore\bin\Debug\net8.0\MinimalApis.Extensions.dll
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\GameStore\bin\Debug\net8.0\MiniValidation.dll
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\GameStore\obj\Debug\net8.0\GameStore.csproj.AssemblyReference.cache
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\GameStore\obj\Debug\net8.0\GameStore.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MohammadSalamat\Downloads\My Folders and Projects\ASP.NET Core Social Media\socialMediaApplication\GameStore\obj\Debug\net8.0\GameStore.csproj.Up2Date
