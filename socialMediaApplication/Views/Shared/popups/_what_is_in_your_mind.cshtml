@@ -11,7 +11,7 @@
             <div class="p-4 text-left md:p-5">
                 <h3 class="text-gray-400 text-2xl uppercase"> Type your thoughts</h3>
 
-                <form class="mt-5" asp-controller="Home" asp-action="CreatePost" method="post">
+                <form class="mt-5" asp-controller="Home" asp-action="CreatePost" method="post" enctype="multipart/form-data">
                     <div class="mb-4 border-gray-200 bg-gray-50 w-full rounded-lg border dark:bg-gray-700 dark:border-gray-600">
                         
                         <div class="px-4 py-2 bg-white rounded-b-lg dark:bg-gray-800">
@@ -25,7 +25,35 @@
                             required>
                             </textarea>
                         </div>
-                        <input type="file" name="thoughts-image" value="" />
+                        <div class="uploadImage w-full relative" 
+                            x-data="{
+                                imageUrl: '/assets/images/photo.png', 
+                                handleFileChange(event) {
+                                    const file = event.target.files[0];
+                                    if (file) {
+                                        this.imageUrl = URL.createObjectURL(file); // Create preview URL
+                                    }else{
+                                        this.imageUrl = '/assets/images/photo.png';
+                                    }
+                                },
+                                removeImage() {
+                                    this.imageUrl = '/assets/images/photo.png'; // Reset to default image
+                                    document.querySelector('input[name=thoughts-image]').value = ''; // Clear the input field
+                                }
+                            }">
+                            <img :src="imageUrl" 
+                                id="previewImage" 
+                                class="w-full h-auto rounded-md my-4 z-10" 
+                                alt="Preview Image">
+                            <input type="file" 
+                                x-on:change="handleFileChange" 
+                                class="absolute top-0 bottom-0 left-0 right-0 z-20" 
+                                name="ImageUrl" style=" opacity: 0;" />
+                            <i 
+                            x-on:click="removeImage"
+                            class="fa fa-trash text-small absolute right-2 top-3 z-30 text-white bg-red-600 p-2 rounded-full cursor-pointer" 
+                            aria-hidden="true"></i>
+                        </div>
                     </div>
                     <div class="submite-story text-right">
                         <button type="submit" class="bg-blue-600 text-white py-2 px-4 shadown-md rounded-md text-center text-sm">
@@ -37,3 +65,17 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.addEventListener('alpine:init', () => {
+        Alpine.data('uploadImage', () => ({
+            imageUrl: '',
+            handleFileChange(event) {
+                const file = event.target.files[0];
+                if (file) {
+                    this.imageUrl = URL.createObjectURL(file); // Create a temporary URL for the selected file
+                }
+            }
+        }));
+    });
+</script>
